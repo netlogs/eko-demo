@@ -1,15 +1,13 @@
-# **Eko Chromium Extension Template**
+# **Eko demo - Stock**
 
-This is the chromium extension template for [eko](https://github.com/FellouAI/eko) (natural language agent programming framework) workflow development.
+**prompts:** `
+    Collect the latest NASDAQ data on Yahoo Finance,
+    including price changes, market capitalization, trading volume of major stocks,
+    analyze the data and generate visualization reports.
+`
 
 ## Setup
 ``` shell
-# install cli (used to initialize browser extension projects)
-pnpm install @eko-ai/eko-cli -g
-# initialize project
-eko-cli init browser-extension-demo
-
-cd browser-extension-demo
 # install dependencies
 pnpm install
 

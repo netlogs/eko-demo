@@ -1,10 +1,17 @@
-# **Eko Chromium Extension**
+# **Eko demo - Search Sam Altman**
 
-Eko Keeps Operating - Empowering language to transform human words into action - eko.fellou.ai
+**prompts:** `
+    Search Sam Altman's information and summarize it into markdown format for export
+`
 
 ## Setup
-```
-npm install
+``` shell
+# install dependencies
+pnpm install
 
-npm run build:dev
+# run
+pnpm run build:dev
+
+# build
+pnpm run build
 ```
