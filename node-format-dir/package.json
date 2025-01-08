@@ -1,0 +1,6 @@
+{
+	"dependencies": {
+		"@eko-ai/eko": "^1.0.6",
+		"dotenv": "^16.4.7"
+	}
+}
