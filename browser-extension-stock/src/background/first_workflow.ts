@@ -1,6 +1,7 @@
 import { Eko } from "@eko-ai/eko";
 import { EkoConfig, WorkflowCallback } from "@eko-ai/eko/types";
 import { getLLMConfig } from "@eko-ai/eko/extension";
+import { GenerateReport } from "./generate_report";
 
 export async function main() {
   // Load LLM model configuration
@@ -14,9 +15,13 @@ export async function main() {
   // Initialize eko
   let eko = new Eko(config as EkoConfig);
 
+  eko.registerTool(new GenerateReport());
+
   // Generate a workflow from natural language description
   const workflow = await eko.generate(`
-    Search Sam Altman's information and summarize it into markdown format for export
+    Collect the latest NASDAQ data on Yahoo Finance,
+    including price changes, market capitalization, trading volume of major stocks,
+    analyze the data and generate visualization reports.
   `);
 
   // Execute the workflow
