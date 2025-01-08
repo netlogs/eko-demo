@@ -41,7 +41,7 @@ export class GenerateReport implements Tool<GenerateReportParams, any> {
   ): Promise<any> {
     let tabId = (
       await chrome.tabs.create({
-        url: "http://www.veasion.cn/artifacts/",
+        url: "https://eko.fellou.ai/artifacts/",
       })
     ).id as number;
     await this.generateReport(context, params, tabId);
