@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# **Eko demo - Web Login Auto Testing**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**prompts:** `
+    Collect the latest NASDAQ data on Yahoo Finance,
+    including price changes, market capitalization, trading volume of major stocks,
+    analyze the data and generate visualization reports.
+`
 
 ## Available Scripts
 
