@@ -1,4 +1,4 @@
-# **Eko demo - Stock**
+# **Eko demo - Collect Stock Infomation**
 
 **prompts:** `
     Collect the latest NASDAQ data on Yahoo Finance,
