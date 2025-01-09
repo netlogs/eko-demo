@@ -26,6 +26,8 @@ const App = () => {
   };
 
   return (
+    <div>
+    <p style={{textAlign: 'center'}}>Auto testing started, press Command + Option + I to view the process.</p>
     <form method="post" onSubmit={handle}>
       <Login style={{ height: "100vh" }}>
         <Username name="username" />
@@ -34,6 +36,7 @@ const App = () => {
         {status && <div>{status}</div>}
       </Login>
     </form>
+    </div>
   );
 };
 
