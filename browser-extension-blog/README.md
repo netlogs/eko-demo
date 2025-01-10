@@ -1,6 +1,6 @@
 # **Eko Chromium Extension Template**
 
-This is the chromium extension template for [eko](https://github.com/FellouAI/eko) (natural language agent programming framework) workflow development.
+**Propmt:** `Based on the README of FellouAI/eko on github, search for competitors, highlight the key contributions of Eko, write a blog post advertising Eko, and post it on Write.as.`
 
 ## Setup
 ``` shell
