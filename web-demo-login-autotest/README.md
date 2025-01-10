@@ -1,9 +1,11 @@
 # **Eko demo - Web Login Auto Testing**
 
 **prompts:** `
-    Collect the latest NASDAQ data on Yahoo Finance,
-    including price changes, market capitalization, trading volume of major stocks,
-    analyze the data and generate visualization reports.
+    Current login page automation test:
+    1. Correct account and password are: admin / 666666 
+    2. Please randomly combine usernames and passwords for testing to verify if login validation works properly, such as: username cannot be empty, password cannot be empty, incorrect username, incorrect password
+    3. Finally, try to login with the correct account and password to verify if login is successful
+    4. Generate test report and export
 `
 
 ## Available Scripts
