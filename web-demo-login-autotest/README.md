@@ -1,12 +1,13 @@
 # **Eko demo - Web Login Auto Testing**
 
-**prompts:** `
+**prompts:** 
+```
     Current login page automation test:
     1. Correct account and password are: admin / 666666 
     2. Please randomly combine usernames and passwords for testing to verify if login validation works properly, such as: username cannot be empty, password cannot be empty, incorrect username, incorrect password
     3. Finally, try to login with the correct account and password to verify if login is successful
     4. Generate test report and export
-`
+```
 
 ## Available Scripts
 
