@@ -1,4 +1,4 @@
-# **Eko Chromium Extension Template**
+# **Do research, write blog post and publish**
 
 **Propmt:** `Based on the README of FellouAI/eko on github, search for competitors, highlight the key contributions of Eko, write a blog post advertising Eko, and post it on Write.as.`
 
