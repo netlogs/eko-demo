@@ -13,9 +13,10 @@ cd browser-extension-demo
 # install dependencies
 pnpm install
 
-# run
+#The code required to build a Chrome browser extension is generated in the dist directory
+# Build dev
 pnpm run build:dev
 
-# build
+# build prod
 pnpm run build
 ```
