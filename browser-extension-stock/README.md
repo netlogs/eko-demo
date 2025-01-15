@@ -11,10 +11,9 @@
 # install dependencies
 pnpm install
 
-#The code required to build a Chrome browser extension is generated in the dist directory
-# Build dev
+# run
 pnpm run build:dev
 
-# build prod
+# build
 pnpm run build
 ```
