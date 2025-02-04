@@ -1,5 +1,5 @@
 {
-  "name": "eko agent",
+  "name": "Eko agent",
   "description": "Eko Agent Extension",
   "version": "1.0",
   "manifest_version": 3,
@@ -28,6 +28,7 @@
   "permissions": [
     "alarms",
     "tabs",
+    "activeTab",
     "windows",
     "storage",
     "scripting",
