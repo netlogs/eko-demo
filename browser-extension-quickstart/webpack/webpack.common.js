@@ -37,15 +37,7 @@ module.exports = {
     plugins: [
         new CopyWebpackPlugin({
             patterns: [
-                { from: "public", to: "../" },
-                {
-                    from: 'node_modules/@eko-ai/eko/dist/extension_content_script.js',
-                    to: "../eko/extension_content_script.js"
-                },
-                {
-                    from: 'node_modules/@eko-ai/eko/dist/extension/script',
-                    to: "../eko/script"
-                }
+                { from: "public", to: "../" }
             ],
             options: {},
         })
