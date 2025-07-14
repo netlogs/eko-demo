@@ -100,8 +100,10 @@ const AppRun = () => {
   return (
     <div
       style={{
-        minWidth: "200px",
-        minHeight: "80px",
+        width: "100%",
+        minHeight: "100vh",
+        padding: "16px",
+        boxSizing: "border-box",
       }}
     >
       <div
@@ -143,8 +145,8 @@ const AppRun = () => {
             border: "1px solid #d9d9d9",
             borderRadius: "4px",
             padding: "8px",
-            width: "360px",
-            height: "220px",
+            width: "100%",
+            height: "300px",
             overflowY: "auto",
             backgroundColor: "#f5f5f5",
           }}

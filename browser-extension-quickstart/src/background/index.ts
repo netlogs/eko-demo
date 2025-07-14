@@ -5,6 +5,12 @@ var eko: Eko;
 
 chrome.storage.local.set({ isRunning: false });
 
+// 添加点击插件图标时打开侧边栏的处理
+chrome.action.onClicked.addListener((tab) => {
+  // @ts-ignore - sidePanel API 可能未在类型定义中
+  chrome.sidePanel.open({ tabId: tab.id });
+});
+
 // Listen to messages from the browser extension
 chrome.runtime.onMessage.addListener(async function (
   request,
